@@ -16,7 +16,7 @@ const UserList = () => {
 
   const addUser = () => {
     const originalUsers = [...users];
-    const newUser = { id: 0, name: "Mosh" };
+    const newUser = { id: 0, name: "Bob" };
     setUsers([newUser, ...users]);
 
     userService
